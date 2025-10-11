@@ -16,7 +16,7 @@ const footerLinks = [
   },
   {
     title: 'Instagram',
-    href: 'https://instagram.com/', // Test with working Instagram URL first
+    href: 'https://instagram.com/aryan.soni_ig', // Test with working Instagram URL first
   },
 ]
 
