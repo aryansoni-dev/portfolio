@@ -2,6 +2,8 @@
 
 A modern, responsive, and beautifully animated developer portfolio website built with **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion**.
 
+![Hero Section](./hero.png)
+
 ## 🚀 Features
 
 - **Modern Tech Stack**: Built with Next.js 14 App Router and React 18.
@@ -40,7 +42,7 @@ src/
     └── ...
 ```
 
-## ⚠️ Copyright & Usage Notice
+<!-- ## ⚠️ Copyright & Usage Notice
 
 **This is not an open-source project.** The codebase, design, and assets are private. You are not permitted to clone, copy, modify, distribute, or use this code for your own projects.
 
@@ -62,13 +64,10 @@ Ensure you have [Node.js](https://nodejs.org/) (version 18+ recommended) and `np
    npm run dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio. -->
 
-## 📱 Screenshots
 
-![Hero Section](./hero.png)
-
-## 📝 Editing the content
+<!-- ## 📝 Editing the content
 
 - Modify the main structure inside `src/app/page.tsx` and `src/app/layout.tsx`.
 - Modify individual sections (such as update about details or projects data) inside the respective files in `src/sections/`.
@@ -83,4 +82,4 @@ Ensure you have [Node.js](https://nodejs.org/) (version 18+ recommended) and `np
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. -->
