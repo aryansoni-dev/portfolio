@@ -9,13 +9,14 @@ import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
+import GithubIcon from '@/assets/icons/github.svg';
 import GrainImg from '@/assets/images/grain.jpg';
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
 	{
-		company: "Acme Corp",
+		// company: "Acme Corp",
 		year: "2024",
 		title: "Snowflake Chat WebApp",
 		results: [
@@ -24,10 +25,11 @@ const portfolioProjects = [
 			// { title: "Increased mobile traffic by 35%" },
 		],
 		// link: "https://youtu.be/4k7IdSLxh6w", // Has link - show working button
+		github: "https://github.com/aryansoni-dev/snowflake-chat-app",
 		image: snowflake,
 	},
 	{
-		company: "Innovative Co",
+		// company: "Innovative Co",
 		year: "2024",
 		title: "Personal Finance Tracker",
 		results: [
@@ -35,11 +37,12 @@ const portfolioProjects = [
 			// { title: "Expanded customer reach by 35%" },
 			// { title: "Increased brand awareness by 15%" },
 		],
-		// No link - should show "Coming Soon"
+		link: "https://aryansoni-dev-fintrack.freedev.app/",
+		github: "https://github.com/aryansoni-dev/personal-finance-tracker",
 		image: fintrack,
 	},
 	{
-		company: "Quantum Dynamics",
+		// company: "Quantum Dynamics",
 		year: "2025",
 		title: "LNCT Website",
 		results: [
@@ -48,10 +51,11 @@ const portfolioProjects = [
 			// { title: "Increased mobile traffic by 35%" },
 		],
 		link: "https://lnct-website.pages.dev", // Has link - show working button
+		github: "https://github.com/aryansoni-dev/LNCT_Website",
 		image: lnctWebsite,
 	},
 	{
-		company: "Quantum Dynamics",
+		// company: "Quantum Dynamics",
 		year: "2025",
 		title: "DearDiary",
 		results: [
@@ -60,10 +64,11 @@ const portfolioProjects = [
 			// { title: "Increased mobile traffic by 35%" },
 		],
 		// No link - should show "Coming Soon"
+		github: "https://github.com/aryansoni-dev/dear-diary",
 		image: aiStartupLandingPage,
 	},
 	{
-		company: "Quantum Dynamics",
+		// company: "Quantum Dynamics",
 		year: "2025",
 		title: "Library Management System",
 		results: [
@@ -72,6 +77,7 @@ const portfolioProjects = [
 			// { title: "Increased mobile traffic by 35%" },
 		],
 		// No link - should show "Coming Soon"
+		github: "https://github.com/aryansoni-dev/library-management-system",
 		image: pdslms,
 	},
 ];
@@ -105,22 +111,35 @@ export const ProjectsSection = () => {
 											</li>
 										))}
 									</ul>
-									{project.link ? (
-										<button 
-											onClick={() => {
-												window.open(project.link, '_blank', 'noopener,noreferrer');
-											}}
-											className="bg-white text-gray-950 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 md:w-auto px-6 transition-all duration-500 hover:bg-emerald-400 hover:text-white hover:shadow-2xl transform hover:scale-110 relative z-[100] cursor-pointer"
-										>
-											<span>Visit Live Site</span>
-											<ArrowUpRightIcon className='size-4' />
-										</button>
-									) : (
-										<div className="bg-gray-600 text-gray-300 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 md:w-auto px-6 cursor-not-allowed opacity-60">
-											<span>Live Preview Coming Soon</span>
-											<ArrowUpRightIcon className='size-4' />
-										</div>
-									)}
+									<div className="flex flex-col md:flex-row gap-4 mt-8">
+										{project.link ? (
+											<button 
+												onClick={() => {
+													window.open(project.link, '_blank', 'noopener,noreferrer');
+												}}
+												className="bg-white text-gray-950 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-2 md:w-auto px-6 transition-all duration-500 hover:bg-emerald-400 hover:text-white hover:shadow-2xl transform hover:scale-110 relative z-[100] cursor-pointer"
+											>
+												<span>Visit Live Site</span>
+												<ArrowUpRightIcon className='size-4' />
+											</button>
+										) : (
+											<div className="bg-gray-600 text-gray-300 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-2 md:w-auto px-6 cursor-not-allowed opacity-60">
+												<span>Live Preview Coming Soon</span>
+												<ArrowUpRightIcon className='size-4' />
+											</div>
+										)}
+										{project.github && (
+											<button 
+												onClick={() => {
+													window.open(project.github, '_blank', 'noopener,noreferrer');
+												}}
+												className="bg-white/10 text-white border border-white/20 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-2 md:w-auto px-6 transition-all duration-500 hover:bg-white/20 hover:shadow-2xl transform hover:scale-110 relative z-[100] cursor-pointer text-nowrap"
+											>
+												<span>View Source</span>
+												<GithubIcon className='size-5' />
+											</button>
+										)}
+									</div>
 									
 								</div>
 								<div className="relative">
