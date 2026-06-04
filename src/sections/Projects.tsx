@@ -1,7 +1,10 @@
 "use client";
 import lnctWebsite from "@/assets/images/lnct-website.png";
+import drJsoni from "@/assets/images/drjsoni.png";
+import coffeeCulture from "@/assets/images/coffee-culture.png";
 import snowflake from "@/assets/images/snowflake.png";
 import fintrack from "@/assets/images/fintrack.png";
+import scholarAI from "@/assets/images/scholarAI.png";
 import pdslms from "@/assets/images/pds_lms.png";
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
@@ -56,17 +59,56 @@ const portfolioProjects = [
 	},
 	{
 		// company: "Quantum Dynamics",
-		year: "2025",
-		title: "DearDiary",
+		year: "2026",
+		title: "Client Website",
 		results: [
-			{ title: "A full stack journaling app that lets users capture daily life moments." },
+			{ title: "A beautifully designed modern website for a life insurance advisor." },
 			// { title: "Improved site speed by 50%" },
 			// { title: "Increased mobile traffic by 35%" },
 		],
-		// No link - should show "Coming Soon"
-		github: "https://github.com/aryansoni-dev/dear-diary",
-		image: aiStartupLandingPage,
+		link: "https://drjsoni.in", // Has link - show working button
+		github: "https://github.com/aryansoni-dev/LNCT_Website",
+		image: drJsoni,
 	},
+	{
+		// company: "Quantum Dynamics",
+		year: "2026",
+		title: "Coffee Website",
+		results: [
+			{ title: "A beautifully designed modern website for a coffee shop." },
+			// { title: "Improved site speed by 50%" },
+			// { title: "Increased mobile traffic by 35%" },
+		],
+		link: "	https://coffee-culture0.netlify.app/", // Has link - show working button
+		github: "https://github.com/aryansoni-dev/LNCT_Website",
+		image: coffeeCulture,
+	},
+	{
+		// company: "Quantum Dynamics",
+		year: "2026",
+		title: "ScholarAI",
+		results: [
+			{ title: "A full stack smart academic learning platform for students." },
+			// { title: "Improved site speed by 50%" },
+			// { title: "Increased mobile traffic by 35%" },
+		],
+		// link: "https://lnct-website.pages.dev", // Has link - show working button
+		github: "https://github.com/aryansoni-dev/ScholarAI",
+		image: scholarAI,
+	},
+	// {
+	// 	// company: "Quantum Dynamics",
+	// 	year: "2025",
+	// 	title: "DearDiary",
+	// 	results: [
+	// 		{ title: "A full stack journaling app that lets users capture daily life moments." },
+	// 		// { title: "Improved site speed by 50%" },
+	// 		// { title: "Increased mobile traffic by 35%" },
+	// 	],
+	// 	// No link - should show "Coming Soon"
+	// 	github: "https://github.com/aryansoni-dev/dear-diary",
+	// 	image: aiStartupLandingPage,
+	// },
 	{
 		// company: "Quantum Dynamics",
 		year: "2025",
