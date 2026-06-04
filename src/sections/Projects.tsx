@@ -1,7 +1,7 @@
 "use client";
 import lnctWebsite from "@/assets/images/lnct-website.png";
-import drJsoni from "@/assets/images/drjsoni.png";
-import coffeeCulture from "@/assets/images/coffee-culture.png";
+import drJsoni from "@/assets/images/dr-soni.png";
+import coffeeCulture from "@/assets/images/coffee.png";
 import snowflake from "@/assets/images/snowflake.png";
 import fintrack from "@/assets/images/fintrack.png";
 import scholarAI from "@/assets/images/scholarAI.png";
