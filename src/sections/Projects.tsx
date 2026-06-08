@@ -80,7 +80,7 @@ const portfolioProjects = [
 			// { title: "Increased mobile traffic by 35%" },
 		],
 		link: "	https://coffee-culture0.netlify.app/", // Has link - show working button
-		github: "https://github.com/aryansoni-dev/LNCT_Website",
+		github: "https://github.com/aryansoni-dev/coffee-culture",
 		image: coffeeCulture,
 	},
 	{
