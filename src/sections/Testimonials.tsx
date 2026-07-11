@@ -43,13 +43,13 @@ const testimonials = [
 ];
 
 export const TestimonialsSection = () => {
-  return (<section className="py-16 lg:py-24">
+  return (<section id="testimonials" className="py-16 lg:py-24">
     <div className=" container">
       <SectionHeader eyebrow="What Clients Say About Me" title="Happy Clients" description="Don&apos;t just take my word for it. See what my clients have to say about my work." />
 
       <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
         <div className="flex flex-none gap-8 pr-8 animate-move-l [animation-duration:90s] hover:[animation-play-state:paused]">
-          {...new Array(2).fill(0).map((_, idx) => (
+          {[...new Array(2).fill(0)].map((_, idx) => (
             <Fragment key={idx}>
               {testimonials.map(testimonial => (
                 <Card key={testimonial.name} className="max-w-xs md:p-8 md:max-w-md p-6 hover:-rotate-3 transition duration-300">
