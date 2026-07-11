@@ -11,35 +11,35 @@ import { Fragment } from "react";
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    name: "Shiv Shanker Singh",
+    position: "Former CEO @ KRIBHCO",
+    text: "I'm delighted to recommend Aryan for his exceptional work in designing and developing my website. From the very beginning, he demonstrated a remarkable combination of creativity, technical expertise, and professionalism.",
     avatar: memojiAvatar1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
+    name: "Jitendra Soni",
+    position: "Consultant @ KRIBHCO",
+    text: "Aryan took the time to understand my requirements and transformed my vision into a stunning website that exceeded my expectations. His attention to detail, responsiveness to feedback, and commitment to delivering a high-quality work were evident throughout the project. I highly recommend Aryan for any web development project.",
     avatar: memojiAvatar2,
   },
-  {
-    name: "Daniel White",
-    position: "CEO @ InnovateCo",
-    text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
-    avatar: memojiAvatar3,
-  },
-  {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
-    avatar: memojiAvatar4,
-  },
-  {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar5,
-  },
+  // {
+  //   name: "Daniel White",
+  //   position: "CEO @ InnovateCo",
+  //   text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+  //   avatar: memojiAvatar3,
+  // },
+  // {
+  //   name: "Emily Carter",
+  //   position: "Product Manager @ GlobalTech",
+  //   text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+  //   avatar: memojiAvatar4,
+  // },
+  // {
+  //   name: "Michael Brown",
+  //   position: "Director of IT @ MegaCorp",
+  //   text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+  //   avatar: memojiAvatar5,
+  // },
 ];
 
 export const TestimonialsSection = () => {

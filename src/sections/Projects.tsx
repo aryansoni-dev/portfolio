@@ -47,6 +47,19 @@ const portfolioProjects = [
 	{
 		// company: "Quantum Dynamics",
 		year: "2025",
+		title: "Library Management System",
+		results: [
+			{ title: "A typical full stack library management system." },
+			// { title: "Improved site speed by 50%" },
+			// { title: "Increased mobile traffic by 35%" },
+		],
+		// No link - should show "Coming Soon"
+		github: "https://github.com/aryansoni-dev/library-management-system",
+		image: pdslms,
+	},
+	{
+		// company: "Quantum Dynamics",
+		year: "2025",
 		title: "LNCT Website",
 		results: [
 			{ title: "A college hackathon website showcasing institutes and companies." },
@@ -109,19 +122,7 @@ const portfolioProjects = [
 	// 	github: "https://github.com/aryansoni-dev/dear-diary",
 	// 	image: aiStartupLandingPage,
 	// },
-	{
-		// company: "Quantum Dynamics",
-		year: "2025",
-		title: "Library Management System",
-		results: [
-			{ title: "A typical full stack library management system." },
-			// { title: "Improved site speed by 50%" },
-			// { title: "Increased mobile traffic by 35%" },
-		],
-		// No link - should show "Coming Soon"
-		github: "https://github.com/aryansoni-dev/library-management-system",
-		image: pdslms,
-	},
+	
 ];
 
 export const ProjectsSection = () => {
