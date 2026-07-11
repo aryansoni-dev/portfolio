@@ -6,7 +6,7 @@ export const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'projects', 'about', 'contact'];
+      const sections = ['home', 'projects', 'testimonials', 'about', 'contact'];
       const scrollPosition = window.scrollY + 200;
       const windowHeight = window.innerHeight;
       const documentHeight = document.documentElement.scrollHeight;
@@ -46,6 +46,7 @@ export const Header = () => {
   const navItems = [
     { href: '#home', label: 'Home', id: 'home' },
     { href: '#projects', label: 'Projects', id: 'projects' },
+    { href: '#testimonials', label: 'Testimonials', id: 'testimonials' },
     { href: '#about', label: 'About', id: 'about' },
     { href: '#contact', label: 'Contact', id: 'contact' },
   ];
