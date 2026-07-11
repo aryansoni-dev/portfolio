@@ -20,7 +20,7 @@ const testimonials = [
     name: "Jitendra Soni",
     position: "Consultant @ KRIBHCO",
     text: "Aryan took the time to understand my requirements and transformed my vision into a stunning website that exceeded my expectations. His attention to detail, responsiveness to feedback, and commitment to delivering a high-quality work were evident throughout the project. I highly recommend Aryan for any web development project.",
-    avatar: memojiAvatar2,
+    avatar: memojiAvatar1,
   },
   // {
   //   name: "Daniel White",
