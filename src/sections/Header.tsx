@@ -51,13 +51,13 @@ export const Header = () => {
     { href: '#contact', label: 'Contact', id: 'contact' },
   ];
 
-  return <div className="flex justify-center items-center sticky top-3 z-10">
-    <nav className="flex gap-1 p-1 border border-white/15 rounded-full bg-white/10 backdrop-blur">
+  return <div className="sticky top-3 z-10 flex w-full justify-center px-2 sm:px-0">
+    <nav className="flex max-w-full flex-wrap justify-center gap-1 rounded-[1.25rem] border border-white/15 bg-white/10 p-1.5 backdrop-blur sm:rounded-full sm:p-1">
       {navItems.map((item) => (
         <a 
           key={item.id}
           href={item.href} 
-          className={`nav-item transition-all duration-500 ${
+          className={`nav-item whitespace-nowrap px-3 py-1.5 text-xs transition-all duration-500 sm:px-4 sm:text-sm ${
             activeSection === item.id 
               ? 'bg-white text-gray-900 hover:bg-white/80' 
               : 'hover:bg-emerald-400/20 hover:text-emerald-300'
