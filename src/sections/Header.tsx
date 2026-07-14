@@ -52,12 +52,12 @@ export const Header = () => {
   ];
 
   return <div className="sticky top-3 z-10 flex w-full justify-center px-2 sm:px-0">
-    <nav className="flex max-w-full flex-wrap justify-center gap-1 rounded-[1.25rem] border border-white/15 bg-white/10 p-1.5 backdrop-blur sm:rounded-full sm:p-1">
+    <nav className="flex w-full max-w-full flex-nowrap justify-start gap-1 overflow-x-auto rounded-[1.25rem] border border-white/15 bg-white/10 p-1.5 backdrop-blur sm:w-auto sm:justify-center sm:rounded-full sm:p-1 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
       {navItems.map((item) => (
         <a 
           key={item.id}
           href={item.href} 
-          className={`nav-item whitespace-nowrap px-3 py-1.5 text-xs transition-all duration-500 sm:px-4 sm:text-sm ${
+          className={`nav-item whitespace-nowrap px-2.5 py-1.5 text-[11px] transition-all duration-500 sm:px-4 sm:text-sm ${
             activeSection === item.id 
               ? 'bg-white text-gray-900 hover:bg-white/80' 
               : 'hover:bg-emerald-400/20 hover:text-emerald-300'
