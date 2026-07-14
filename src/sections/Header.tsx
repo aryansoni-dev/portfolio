@@ -51,13 +51,15 @@ export const Header = () => {
     { href: '#contact', label: 'Contact', id: 'contact' },
   ];
 
-  return <div className="sticky top-3 z-10 flex w-full justify-center px-2 sm:px-0">
-    <nav className="flex w-full max-w-full flex-nowrap justify-start gap-0.5 overflow-x-auto rounded-[1.25rem] border border-white/15 bg-white/10 p-1 backdrop-blur sm:w-auto sm:justify-center sm:rounded-full sm:p-1 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
+  return <div className="flex justify-center items-center sticky top-3 z-10">
+    <nav className="flex gap-1 p-1 border border-white/15 rounded-full bg-white/10 backdrop-blur">
       {navItems.map((item) => (
         <a 
           key={item.id}
           href={item.href} 
-          className={`nav-item whitespace-nowrap px-2 py-1.5 text-[10px] transition-all duration-500 sm:px-4 sm:text-sm ${
+          className={`nav-item transition-all duration-500 ${
+            item.id === 'testimonials' ? 'hidden md:inline-flex' : ''
+          } ${
             activeSection === item.id 
               ? 'bg-white text-gray-900 hover:bg-white/80' 
               : 'hover:bg-emerald-400/20 hover:text-emerald-300'

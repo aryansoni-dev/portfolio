@@ -8,7 +8,7 @@ import scholarAI from "@/assets/images/scholarAI.png";
 import pdslms from "@/assets/images/pds_lms.png";
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import deardiary from "@/assets/images/dear-diary.png";
 import Image from "next/image";
 import CheckIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
@@ -109,19 +109,19 @@ const portfolioProjects = [
 		github: "https://github.com/aryansoni-dev/ScholarAI",
 		image: scholarAI,
 	},
-	// {
-	// 	// company: "Quantum Dynamics",
-	// 	year: "2025",
-	// 	title: "DearDiary",
-	// 	results: [
-	// 		{ title: "A full stack journaling app that lets users capture daily life moments." },
-	// 		// { title: "Improved site speed by 50%" },
-	// 		// { title: "Increased mobile traffic by 35%" },
-	// 	],
-	// 	// No link - should show "Coming Soon"
-	// 	github: "https://github.com/aryansoni-dev/dear-diary",
-	// 	image: aiStartupLandingPage,
-	// },
+	{
+		// company: "Quantum Dynamics",
+		year: "2026",
+		title: "DearDiary",
+		results: [
+			{ title: "A full stack AI journaling mobile app that lets users reflect on their daily life moments." },
+			// { title: "Improved site speed by 50%" },
+			// { title: "Increased mobile traffic by 35%" },
+		],
+		link: "https://officialdeardiary.netlify.app/", // Has link - show working button
+		github: "https://github.com/aryansoni-dev/dear-diary",
+		image: deardiary,
+	},
 	
 ];
 
