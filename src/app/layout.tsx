@@ -26,6 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="083AvRz9yMYhK835hNKObyuyrVlzapEp06KndgkrZi0" />
+      </head>
       <body 
         className={twMerge(inter.variable, calistoga.variable, "bg-gray-900 text-white antialiased font-sans")} 
         suppressHydrationWarning={true}
