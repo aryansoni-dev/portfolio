@@ -79,7 +79,7 @@ const portfolioProjects = [
 			// { title: "Improved site speed by 50%" },
 			// { title: "Increased mobile traffic by 35%" },
 		],
-		link: "https://drjsoni.in", // Has link - show working button
+		link: "https://secondinningsleadership.in", // Has link - show working button
 		github: "https://github.com/aryansoni-dev/dr-soni-website",
 		image: drJsoni,
 	},
